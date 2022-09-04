@@ -2,7 +2,7 @@
 namespace: itd27m01
 name: example
 description: Ansible mitogen collection for proof of concept
-version: 0.1.1
+version: 0.1.2
 readme: README.md
 authors:
   - ITD27M01

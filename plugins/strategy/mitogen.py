@@ -44,6 +44,15 @@ __metaclass__ = type
 # debuggers and isinstance() work predictably.
 #
 
+DOCUMENTATION = '''
+    name: itd27m01.example.mitogen_linear
+    short_description: Executes tasks in a linear fashion
+    description:
+        - ...
+    version_added: "2.7"
+    author: Mitogen HQ
+'''
+
 import ansible_mitogen.strategy
 import ansible.plugins.strategy.linear
 
