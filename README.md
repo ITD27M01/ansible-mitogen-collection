@@ -1,0 +1,1 @@
+# Ansible mitogen collection proof of concept

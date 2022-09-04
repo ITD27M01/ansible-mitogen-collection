@@ -1,0 +1,19 @@
+---
+namespace: itd27m01
+name: example
+description: Ansible mitogen collection for proof of concept
+version: 0.1.1
+readme: README.md
+authors:
+  - ITD27M01
+
+tags:
+  - ansible
+
+repository: https://github.com/itd27m01/ansible-mitogen-collection.git
+homepage: https://github.com/itd27m01/ansible-mitogen-collection.git
+issues: https://github.com/itd27m01/ansible-mitogen-collection/issues
+
+build_ignore:
+  - '*.tar.gz'
+  - '*.pyc'
