@@ -44,6 +44,16 @@ __metaclass__ = type
 # debuggers and isinstance() work predictably.
 #
 
+DOCUMENTATION = '''
+    name: mitogen-hq.mitogen.mitogen_free
+    short_description: Mitogen free strategy plugin
+    description:
+        - Use the corresponding strategies from underlying plugins,
+        - such as mitogen-hq.mitogen.mitogen_linear
+    version_added: "2.11"
+    author: Mitogen HQ
+'''
+
 import ansible_mitogen.loaders
 import ansible_mitogen.strategy
 

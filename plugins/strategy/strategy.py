@@ -45,11 +45,12 @@ __metaclass__ = type
 #
 
 DOCUMENTATION = '''
-    name: itd27m01.example.mitogen_linear
-    short_description: Executes tasks in a linear fashion
+    name: mitogen-hq.mitogen.mitogen
+    short_description: Mitogen plugins entry points
     description:
-        - ...
-    version_added: "2.7"
+        - Use the corresponding strategies from underlying plugins,
+        - such as mitogen-hq.mitogen.mitogen_linear
+    version_added: "2.11"
     author: Mitogen HQ
 '''
 
